@@ -138,7 +138,9 @@ int main() {
     //calculate section
     string c1 = to_string(firstColor);
     string c2 = to_string(secondColor);
+    //merge two string inside one value
     string c = c1 + c2;
+    //convert this string value to integer
     totalMerge = stoi(c);
     int result = totalMerge * pow(totalMerge, thirdColor);
     float totalResistanceAdd = result + (result * lastColor);
