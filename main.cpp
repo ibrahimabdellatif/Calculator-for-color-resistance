@@ -142,10 +142,12 @@ int main() {
     string c = c1 + c2;
     //convert this string value to integer
     totalMerge = stoi(c);
+
     int result = totalMerge * pow(totalMerge, thirdColor);
     float totalResistanceAdd = result + (result * lastColor);
     float totalResistanceSub = result - (result * lastColor);
 
+    //print total result of resistance
     cout << "original result is "<< result << "\ntotal number is " << totalResistanceAdd << " or "
          << totalResistanceSub;
 
